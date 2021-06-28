@@ -1,6 +1,7 @@
 // out: ../css/main.css
 
 @import 'variables';
+@import 'mixins';
 
 * {
 	margin: 0;
@@ -76,7 +77,7 @@ font-family: 'Quicksand', sans-serif; */
 h1 {
   	font-family: @header;
     font-size: 3.375em;
-  	color: #524F4F;
+  	color: @secondary-textcolor;
 	}
 
 /* Break */
@@ -112,11 +113,7 @@ h1 {
 }
 
 .services_column a {
-    background: @primary-color;
-    color: @background-colr;
-    border-radius: 0.313rem;
-    text-decoration: none;
-		padding: 2% 4%;
+	.cta-button();
 }
 
 .services_column a:hover {
@@ -145,7 +142,7 @@ h1 {
     color: @primary-color;
     border-radius: 0.313rem;
     text-decoration: none;
-		border: 2px solid @background-colr;
+	border: 2px solid @background-colr;
     color: @background-colr;
 }
 
@@ -155,7 +152,7 @@ h1 {
 
 .content ul {
 	line-height: 22px;
-  font-weight: lighter;
+    font-weight: lighter;
 	font-family: @text-font;
 }
 
@@ -217,12 +214,10 @@ article.column {
 }
 
 .column a {
-    background: @primary-color;
-    color: @background-colr;
-    border-radius: 0.313rem;
-    text-decoration: none;
-		padding: 2% 4%;
+	.cta-button();
 }
+
+
 
 .column a:hover {
     background-color:@secondary-color;
@@ -240,12 +235,12 @@ article.column {
 *=====================================*/
 
 .payinfo {
-		color: grey;
-		padding: 5%;
+	color: grey;
+	padding: 5%;
 }
 
 .payinfo h2{
-	  font-size: 1rem;
+	font-size: 1rem;
 }
 .payinfo ol {
 	font-size: 0.9rem;
@@ -272,7 +267,7 @@ article.column {
 .thankyou p {
 	text-align: center;
 	font-size: 1.2rem;
-  color: grey;
+    color: grey;
 	padding-bottom: 6%;
 }
 
@@ -289,7 +284,7 @@ article.column {
 .contact-form {
   background: #8BE0DD;
   border-radius: 10px;
-	padding: 10px;
+  padding: 10px;
 }
 
 .label_input_wrap {
@@ -323,12 +318,12 @@ textarea {
 label {
   font-weight: bold;
   font-size: small;
-	padding-bottom: 3px;
+  padding-bottom: 3px;
 }
 
 .pseudo p:first-of-type:before {
-	content: "Your Feedback ";
-	font-weight: bold;
+content: "Your Feedback ";
+font-weight: bold;
 }
 
 img.services {
@@ -339,25 +334,12 @@ img.services {
 	width: 75%;
 	padding: 5% 0 1% 9%;
 }
-/* #map {
-
-  height: 200px;
-  width: 100%;
-} */
 
 
 /* Footer Section */
 
 .button {
-	width: 35%;
-	margin: 4% auto 0 auto;
-  padding: 2% 1%;
-	text-align: center;
-	text-transform: uppercase;
-	font-weight: bold;
-	letter-spacing: 0.125rem;
-	border: 0.125rem solid @primary-color;
-	color: @primary-color;
+	.button-design();
 }
 
 .button:hover {
@@ -408,28 +390,23 @@ padding: 2% 0 3% 0;
 }
 
 .fa-facebook {
-  background: @primary-color;
-  color: @background-colr;
+	.social-button();
 }
 
 .fa-twitter {
-  background: @primary-color;
-  color: @background-colr;
+	.social-button();
 }
 
 .fa-linkedin {
-  background: @primary-color;
-  color: @background-colr;
+	.social-button();
 }
 
 .fa-youtube {
-  background: @primary-color;
-  color: @background-colr;
+	.social-button();
 }
 
 .fa-instagram {
-  background: @primary-color;
-  color: @background-colr;
+	.social-button();
 }
 
 
@@ -669,7 +646,7 @@ padding: 11% 0 1% 5%;
 } */
 
 .payinfo {
-	padding: 0 10% 0% 5%;
+ padding: 0 10% 0% 5%;
 }
 
 .payinfo ol {
@@ -685,8 +662,8 @@ article.column {
 }
 
 .button {
-	width: 20%;
-	margin: 2% auto 0 auto;
+  width: 20%;
+  margin: 2% auto 0 auto;
   padding: 2% 1%;
 }
 
@@ -714,8 +691,8 @@ padding: 10% 6% 0% 0%;
 .section h1 {
 
   font-size: 3.6rem;
-	padding: 20% 0% 0% 2%;
-	margin: 15px;
+  padding: 20% 0% 0% 2%;
+  margin: 15px;
 
 	}
 }
