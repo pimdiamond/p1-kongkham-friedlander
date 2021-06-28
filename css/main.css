@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5vAw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
+}
 * {
   margin: 0;
   padding: 0;
@@ -75,7 +89,7 @@ summary {
 }
 .menu li:hover {
   display: block;
-  background: #ffffff;
+  background: white;
   padding: 15px 0 15px 0;
   border-bottom: #dddddd 1px solid;
 }
@@ -121,7 +135,7 @@ h1 {
 }
 /* Services Section */
 .services {
-  background-color: #FFFFFF;
+  background-color: white;
   padding-bottom: 4%;
 }
 .services_column h3 {
@@ -131,14 +145,14 @@ h1 {
 }
 .services_column p {
   color: black;
-  background-color: #FFFFFF;
+  background-color: white;
   line-height: 1.563rem;
   font-weight: lighter;
   font-family: 'Quicksand', sans-serif;
 }
 .services_column a {
   background: #168b95;
-  color: #FFFFFF;
+  color: white;
   border-radius: 0.313rem;
   text-decoration: none;
   padding: 2% 4%;
@@ -165,8 +179,8 @@ h1 {
   color: #168b95;
   border-radius: 0.313rem;
   text-decoration: none;
-  border: 2px solid #FFFFFF;
-  color: #FFFFFF;
+  border: 2px solid white;
+  color: white;
 }
 .content a:hover {
   background-color: #713823;
@@ -186,7 +200,7 @@ h1 {
 .services-section {
   display: inline-block;
   width: 100%;
-  background-color: #FFFFFF;
+  background-color: white;
   padding-bottom: 8%;
 }
 .servicespage {
@@ -216,14 +230,14 @@ h4 {
 }
 .column p {
   color: black;
-  background-color: #FFFFFF;
+  background-color: white;
   line-height: 1.563rem;
   font-weight: lighter;
   font-family: 'Quicksand', sans-serif;
 }
 .column a {
   background: #168b95;
-  color: #FFFFFF;
+  color: white;
   border-radius: 0.313rem;
   text-decoration: none;
   padding: 2% 4%;
@@ -353,7 +367,7 @@ img.services {
   text-align: center;
   padding: 2%;
   background-color: #168b95;
-  color: #FFFFFF;
+  color: white;
   font-family: 'Quicksand', sans-serif;
   font-weight: lighter;
   letter-spacing: 0.125rem;
@@ -496,7 +510,7 @@ img.services {
   nav ul li {
     display: inline-block;
     float: left;
-    color: #FFFFFF;
+    color: white;
     margin-right: 25px;
     letter-spacing: 2px;
     font-weight: bold;
