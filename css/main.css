@@ -1,16 +1,23 @@
 @font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5vAw.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Roboto';
+  font-family: 'Caveat Brush';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/caveatbrush/v6/EYq0maZfwr9S9-ETZc3fKXtMWw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/quicksand/v22/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkKEo18E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/quicksand/v22/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkM0o18E.ttf) format('truetype');
 }
 * {
   margin: 0;
@@ -121,13 +128,13 @@ body {
 /* font-family: 'Caveat', cursive;
 font-family: 'Quicksand', sans-serif; */
 h1 {
-  font-family: 'Caveat', cursive;
+  font-family: 'Caveat Brush', cursive;
   font-size: 3.375em;
   color: #524F4F;
 }
 /* Break */
 .page_break {
-  font-family: 'Caveat', cursive;
+  font-family: 'Caveat Brush', cursive;
   font-size: 1.7em;
   color: #168b95;
   text-align: center;
@@ -146,9 +153,9 @@ h1 {
 .services_column p {
   color: black;
   background-color: white;
+  font-family: 'Quicksand', sans-serif;
   line-height: 1.563rem;
   font-weight: lighter;
-  font-family: 'Quicksand', sans-serif;
 }
 .services_column a {
   background: #168b95;
@@ -162,7 +169,7 @@ h1 {
 }
 /* founder section */
 .page_break2 {
-  font-family: 'Caveat', cursive;
+  font-family: 'Caveat Brush', cursive;
   font-size: 1.7em;
   color: #168b95;
   text-align: center;
@@ -231,9 +238,9 @@ h4 {
 .column p {
   color: black;
   background-color: white;
+  font-family: 'Quicksand', sans-serif;
   line-height: 1.563rem;
   font-weight: lighter;
-  font-family: 'Quicksand', sans-serif;
 }
 .column a {
   background: #168b95;
@@ -418,7 +425,7 @@ img.services {
 .section h1 {
   text-align: left;
   font-size: 2.2rem;
-  font-family: 'Caveat', cursive;
+  font-family: 'Caveat Brush', cursive;
   padding-top: 5%;
   z-index: 1;
   opacity: 0.9;
