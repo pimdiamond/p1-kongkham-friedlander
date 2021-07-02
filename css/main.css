@@ -357,8 +357,12 @@ img.services {
   width: 100%;
 }
 .founder img {
-  width: 74%;
+  width: 75%;
   padding: 5% 0 1% 9%;
+}
+.founder2 img {
+  width: 65%;
+  padding: 7% 0 0% 44%;
 }
 /* Footer Section */
 .button {
