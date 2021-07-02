@@ -200,6 +200,10 @@ h1 {
 .founder {
   background-color: #168b95;
 }
+
+.founder2 {
+  background-color: #168b95;
+}
 .content {
   color: white;
   padding: 0 6% 6% 8%;
@@ -360,6 +364,13 @@ img.services {
   width: 75%;
   padding: 5% 0 1% 9%;
 }
+
+.founder2 img {
+  width: 60%;
+  padding: 5% 0 1% 9%;
+}
+
+
 /* Footer Section */
 .button {
   width: 35%;
@@ -472,6 +483,9 @@ img.services {
   margin: 0 5px;
   border-radius: 0.313rem;
 }
+
+
+
 /* media jquery */
 @media (width: 375px) {
   .section {
@@ -578,6 +592,12 @@ img.services {
     display: flex;
     padding: 2% 0;
   }
+
+  .founder2 {
+    width: 100%;
+    display: flex;
+    padding: 2% 0;
+  }
   .content a {
     padding: 1% 3%;
     margin-right: 68%;
@@ -587,10 +607,17 @@ img.services {
     margin: 3% 10%;
     padding-left: 5%;
   }
-  .content {
-    width: 540px;
-    padding: 3% 0 0 12%;
+
+  .mypic2 img {
+   
+    margin: 3% 0 0 43%;
+    padding-left: 5%;
   }
+  .content {
+    width: 630px;
+    padding: 3% 0 0 8%;
+  }
+
   .column {
     width: 26%;
     float: left;
